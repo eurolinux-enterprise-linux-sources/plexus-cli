@@ -33,7 +33,7 @@
 
 Name:           %{parent}-%{subname}
 Version:        1.2
-Release:        19%{?dist}
+Release:        20%{?dist}
 Epoch:          0
 Summary:        Command Line Interface facilitator for Plexus
 License:        ASL 2.0
@@ -103,6 +103,9 @@ cp -p %{SOURCE1} .
 %doc LICENSE-2.0.txt
 
 %changelog
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 01.2-20
+- Mass rebuild 2013-12-27
+
 * Fri Aug 23 2013 Michal Srb <msrb@redhat.com> - 0:1.2-19
 - Migrate away from mvn-rpmbuild (Resolves: #997492)
 
